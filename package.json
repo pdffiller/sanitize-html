@@ -9,10 +9,6 @@
     "test": "mocha test/test.js",
     "prebuild": "npm run test && rm -rf dist && mkdir dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/punkave/sanitize-html.git"
-  },
   "keywords": [
     "html",
     "parser",
@@ -36,5 +32,16 @@
     "browserify": "^13.0.1",
     "mocha": "^2.5.3",
     "uglify-js": "^2.6.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdffiller/sanitize-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pdffiller/sanitize-html/issues"
+  },
+  "homepage": "https://github.com/pdffiller/sanitize-html#readme"
 }
